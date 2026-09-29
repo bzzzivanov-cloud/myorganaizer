@@ -49,7 +49,7 @@ export function InputBar({ onAdd }: InputBarProps) {
         onChange={handleChange}
         onKeyDown={handleKeyDown}
         rows={1}
-        placeholder="Запишите дело или мысль… Поставьте в конец цифру 1–6, чтобы выбрать блок"
+        placeholder="Запишите дело, покупку или мысль. Поставьте в конце цифру 1-6, чтобы выбрать блок"
         className="min-h-[58px] flex-1 resize-none rounded-2xl border border-slate-200 bg-white px-5 py-4 text-base leading-snug text-slate-800 shadow-sm outline-none transition placeholder:text-slate-400 focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
       />
       <button
