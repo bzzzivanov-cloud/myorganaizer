@@ -18,7 +18,6 @@ export const BLOCKS: BlockConfig[] = [
     emoji: '🔥',
     title: 'Срочные дела',
     subtitle: '1–2 дня',
-    tag: 'Срочно',
     accentText: 'text-red-600',
     accentBg: 'bg-red-50',
     accentBorder: 'border-red-500',
